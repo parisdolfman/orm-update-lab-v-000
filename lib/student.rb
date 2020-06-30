@@ -71,6 +71,6 @@ end
     SQL
 
     DB[:conn].execute(sql, self.name)
-  end 
+  end
 
 end
