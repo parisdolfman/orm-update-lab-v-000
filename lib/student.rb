@@ -72,7 +72,7 @@ end
 
     DB[:conn].execute(sql, self.name)
 
-    
+
     Student.new_from_db(row[0])
   end
 
