@@ -71,6 +71,8 @@ end
     SQL
 
     DB[:conn].execute(sql, self.name)
+
+    Student.new_from_db(row)
   end
 
 end
